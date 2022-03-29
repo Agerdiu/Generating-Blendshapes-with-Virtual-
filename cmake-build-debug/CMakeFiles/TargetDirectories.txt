@@ -1,0 +1,4 @@
+/home/scz/blendshape_old/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/scz/blendshape_old/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/scz/blendshape_old/cmake-build-debug/CMakeFiles/TestCases.dir
+/home/scz/blendshape_old/cmake-build-debug/CMakeFiles/BlendshapeGeneration.dir

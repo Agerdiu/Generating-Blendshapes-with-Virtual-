@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlendshapeGeneration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\Ceres\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestCases">
+				<Option output="/home/scz/blendshape_old/cmake-build-debug/TestCases" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNPARTITION"/>
+					<Add directory="/home/scz/blendshape_old/cmake-build-debug"/>
+					<Add directory="/home/scz/blendshape_old"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/home/scz/blendshape_old/third_party/trimesh2/include"/>
+					<Add directory="/home/scz/blendshape_old/third_party/json/include"/>
+					<Add directory="/home/scz/blendshape_old/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestCases"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestCases/fast">
+				<Option output="/home/scz/blendshape_old/cmake-build-debug/TestCases" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNPARTITION"/>
+					<Add directory="/home/scz/blendshape_old/cmake-build-debug"/>
+					<Add directory="/home/scz/blendshape_old"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/home/scz/blendshape_old/third_party/trimesh2/include"/>
+					<Add directory="/home/scz/blendshape_old/third_party/json/include"/>
+					<Add directory="/home/scz/blendshape_old/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestCases/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlendshapeGeneration">
+				<Option output="/home/scz/blendshape_old/cmake-build-debug/libBlendshapeGeneration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNPARTITION"/>
+					<Add directory="/home/scz/blendshape_old/cmake-build-debug"/>
+					<Add directory="/home/scz/blendshape_old"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/home/scz/blendshape_old/third_party/trimesh2/include"/>
+					<Add directory="/home/scz/blendshape_old/third_party/json/include"/>
+					<Add directory="/home/scz/blendshape_old/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlendshapeGeneration"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlendshapeGeneration/fast">
+				<Option output="/home/scz/blendshape_old/cmake-build-debug/libBlendshapeGeneration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/scz/blendshape_old/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNPARTITION"/>
+					<Add directory="/home/scz/blendshape_old/cmake-build-debug"/>
+					<Add directory="/home/scz/blendshape_old"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/home/scz/blendshape_old/third_party/trimesh2/include"/>
+					<Add directory="/home/scz/blendshape_old/third_party/json/include"/>
+					<Add directory="/home/scz/blendshape_old/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlendshapeGeneration/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/scz/blendshape_old/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/scz/blendshape_old/src/BlendshapeGenerator.cpp">
+			<Option target="BlendshapeGeneration"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/src/MeshTransfer.cpp">
+			<Option target="BlendshapeGeneration"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/src/Shapeblend.cpp">
+			<Option target="BlendshapeGeneration"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/src/TestCases.cpp">
+			<Option target="TestCases"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/src/TriangleGradient.cpp">
+			<Option target="BlendshapeGeneration"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/cmake_modules/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/cmake_modules/FindSuiteSparse.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/../../../usr/local/lib/cmake/Ceres/CeresConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/../../../usr/local/lib/cmake/Ceres/CeresConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/../../../usr/local/lib/cmake/Ceres/CeresTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/../../../usr/local/lib/cmake/Ceres/CeresTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/../../../usr/local/lib/cmake/Ceres/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/scz/blendshape_old/../../../usr/local/lib/cmake/Ceres/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

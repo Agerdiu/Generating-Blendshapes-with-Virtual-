@@ -1,0 +1,36 @@
+/snap/clion/184/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/scz/blendshape_old
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The CXX flags:  -std=c++0x
+--   Eigen include path is /usr/local/include/eigen3/
+-- SuiteSparse_LIBS: optimized;/usr/lib/x86_64-linux-gnu/libamd.so;debug;/usr/lib/x86_64-linux-gnu/libamd.so;optimized;/usr/lib/x86_64-linux-gnu/libcamd.so;debug;/usr/lib/x86_64-linux-gnu/libcamd.so;optimized;/usr/lib/x86_64-linux-gnu/libccolamd.so;debug;/usr/lib/x86_64-linux-gnu/libccolamd.so;optimized;/usr/lib/x86_64-linux-gnu/libcolamd.so;debug;/usr/lib/x86_64-linux-gnu/libcolamd.so;optimized;/usr/lib/x86_64-linux-gnu/libcholmod.so;debug;/usr/lib/x86_64-linux-gnu/libcholmod.so;optimized;/usr/lib/x86_64-linux-gnu/libspqr.so;debug;/usr/lib/x86_64-linux-gnu/libspqr.so;optimized;/usr/lib/x86_64-linux-gnu/libldl.so;debug;/usr/lib/x86_64-linux-gnu/libldl.so;optimized;/usr/lib/x86_64-linux-gnu/libbtf.so;debug;/usr/lib/x86_64-linux-gnu/libbtf.so;optimized;/usr/lib/x86_64-linux-gnu/libklu.so;debug;/usr/lib/x86_64-linux-gnu/libklu.so;optimized;/usr/lib/x86_64-linux-gnu/libcxsparse.so;debug;/usr/lib/x86_64-linux-gnu/libcxsparse.so;optimized;/usr/lib/x86_64-linux-gnu/libumfpack.so;debug;/usr/lib/x86_64-linux-gnu/libumfpack.so
+-- Found required Ceres dependency: Eigen version 3.3.4 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found Ceres version: 1.12.0 installed in: /usr/local with components: [LAPACK, SchurSpecializations, OpenMP]
+-- Configuring done
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target TestCases.  AUTOMOC and
+  AUTOUIC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target BlendshapeGeneration.
+  AUTOMOC and AUTOUIC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/scz/blendshape_old/cmake-build-debug
